@@ -1,5 +1,5 @@
 {
-  "name": "pwd-week5",
+  "name": "pwd-week7-client",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "typecheck": "tsc -b",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "vitest run"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -36,7 +37,8 @@
     "jiti": "^2.7.0",
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.71.1",
-    "vite": "^7.1.2"
+    "vite": "^7.1.2",
+    "vitest": "^3.2.7"
   },
   "engines": {
     "node": "24.x"

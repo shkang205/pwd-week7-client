@@ -14,7 +14,7 @@ import type {
 import { readStoredValue } from './storage';
 import { isRestaurant, isSubmission } from './validation';
 
-// 맛집 데이터는 pwd-week6 Express 서버(Render)에서 받아옵니다.
+// 맛집 데이터는 pwd-week7 Express 서버(Render, Supabase 저장)에서 받아옵니다.
 // 서버 주소는 VITE_API_URL 환경변수로 지정합니다 (.env.development / .env.production).
 const API_URL = import.meta.env.VITE_API_URL ?? 'http://localhost:3000';
 
